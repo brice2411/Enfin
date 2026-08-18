@@ -1,0 +1,71 @@
+/* Fidelity pass: preserve the ChatGPT-site visual direction while polishing the Vercel build. */
+:root{--bb-deep:#112f25;--bb-green:#173f31;--bb-paper:#f6f3ea;--bb-lime:#c8ee62;--bb-line:#d7ddd8}
+body{background:var(--bb-paper)}
+#bb-portfolio{background:var(--bb-paper)}
+#bb-portfolio .bb-nav{position:relative;z-index:20;background:rgba(246,243,234,.96);backdrop-filter:blur(12px)}
+#bb-portfolio .bb-hero{padding-top:92px;padding-bottom:86px}
+#bb-portfolio .bb-hero h1{max-width:1080px}
+#bb-portfolio .bb-hero h1 em{margin-top:8px;color:#60746a}
+#bb-portfolio .bb-btn{transition:transform .2s ease,box-shadow .2s ease,background .2s ease;box-shadow:0 10px 28px rgba(17,47,37,.12)}
+#bb-portfolio .bb-btn:hover{transform:translateY(-2px);box-shadow:0 16px 34px rgba(17,47,37,.18)}
+#bb-portfolio .bb-method{padding-top:88px;padding-bottom:88px}
+#bb-portfolio .bb-card{border:1px solid rgba(17,47,37,.08);box-shadow:0 20px 44px rgba(0,0,0,.15)}
+#bb-portfolio .bb-card.core{box-shadow:0 24px 50px rgba(0,0,0,.2)}
+#bb-portfolio .bb-projects{background:var(--bb-deep)}
+#bb-portfolio .bb-project-grid{gap:22px}
+#bb-portfolio .bb-project{position:relative;background:#f8f5ed;border:1px solid rgba(255,255,255,.07);box-shadow:0 16px 40px rgba(0,0,0,.12);transition:transform .25s ease,box-shadow .25s ease}
+#bb-portfolio a.bb-project:hover{transform:translateY(-5px);box-shadow:0 26px 54px rgba(0,0,0,.2)}
+#bb-portfolio .bb-project img{height:330px;display:block;object-fit:cover;transition:transform .45s ease;filter:saturate(.96) contrast(1.02)}
+#bb-portfolio a.bb-project:hover img{transform:scale(1.018)}
+#bb-portfolio .bb-project div{padding:30px 30px 32px}
+#bb-portfolio .bb-project h3{font-size:32px;margin:12px 0 10px}
+#bb-portfolio .bb-project p{font-size:14px;max-width:520px}
+#bb-portfolio .bb-project-link{padding-top:7px;border-top:1px solid #d9ddd8;margin-top:17px}
+#bb-portfolio .bb-about{align-items:start}
+#bb-portfolio .bb-proof div{background:rgba(255,255,255,.26)}
+#bb-portfolio .bb-final{background:var(--bb-lime)}
+
+/* Aisia: keep the exact premium brand language, strengthen image presence and legibility. */
+#aisia-sio{background:#f7f2e7}
+#aisia-sio .as-nav{background:rgba(247,242,231,.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(18,63,52,.08)}
+#aisia-sio .as-hero{min-height:700px;grid-template-columns:.9fr 1.1fr}
+#aisia-sio .as-copy{padding:74px 7% 66px}
+#aisia-sio .as-copy h1{font-size:clamp(46px,4.6vw,68px);line-height:.98}
+#aisia-sio .as-copy>p{font-size:15px;max-width:610px}
+#aisia-sio .as-hero-img{position:relative;overflow:hidden;background:#dce3db}
+#aisia-sio .as-hero-img img{min-height:700px;object-position:center;filter:saturate(.98) contrast(1.03)}
+#aisia-sio .as-hero-img:after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(18,63,52,.05)}
+#aisia-sio .as-benefits{gap:18px}
+#aisia-sio .as-benefits div{min-width:0}
+#aisia-sio .as-icon{background:#f3f7e7;border-color:#739039}
+#aisia-sio .as-button{height:58px;font-size:11px;letter-spacing:.04em;box-shadow:0 14px 34px rgba(18,63,52,.12);transition:transform .2s ease,box-shadow .2s ease}
+#aisia-sio .as-button:hover{transform:translateY(-2px);box-shadow:0 20px 40px rgba(18,63,52,.18)}
+#aisia-sio .as-trust{min-height:82px}
+#aisia-sio .as-projection figure{height:430px}
+#aisia-sio .as-projection figcaption{font-size:20px;padding:105px 26px 25px;text-shadow:0 2px 14px rgba(0,0,0,.28)}
+#aisia-sio .as-tech article{border:1px solid rgba(18,63,52,.08);box-shadow:0 12px 32px rgba(18,63,52,.05)}
+#aisia-sio .as-tech img{height:260px}
+#aisia-sio .as-material>img{height:580px}
+#aisia-sio .as-material>div{padding-top:86px;padding-bottom:86px}
+#aisia-sio .as-protocol img{height:420px}
+#aisia-sio .as-offer-grid>img{height:270px}
+#aisia-sio .as-final{min-height:350px;height:auto}
+#aisia-sio .as-final img{min-height:350px;object-fit:cover}
+
+@media(max-width:900px){
+ #bb-portfolio .bb-project img{height:290px}
+ #aisia-sio .as-hero{grid-template-columns:1fr}
+ #aisia-sio .as-hero-img img{min-height:520px;height:62vw;max-height:650px}
+ #aisia-sio .as-copy{padding:58px 6%}
+}
+@media(max-width:760px){
+ #bb-portfolio .bb-hero{padding-top:62px;padding-bottom:64px}
+ #bb-portfolio .bb-project img{height:300px}
+ #bb-portfolio .bb-project div{padding:25px}
+ #aisia-sio .as-hero-img img{min-height:440px;height:115vw;max-height:570px}
+ #aisia-sio .as-benefits{grid-template-columns:1fr;gap:12px}
+ #aisia-sio .as-trust{grid-template-columns:1fr 1fr;padding:10px 4%}
+ #aisia-sio .as-trust div{padding:14px 6px}
+ #aisia-sio .as-projection figure{height:360px}
+ #aisia-sio .as-tech img{height:230px}
+}
