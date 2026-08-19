@@ -69,10 +69,10 @@ export default function Home() {
               <div className="nc-project-visual peach"><div className="paper"><small>03 · COPYWRITING PUBLICITAIRE</small><h4>Horizon 90</h4><span>APERÇU</span></div></div>
               <div className="nc-project-copy"><small>COPYWRITING PUBLICITAIRE · ADS</small><h3>Horizon 90 : Un même programme, trois raisons d’y croire</h3><p>Trois concepts publicitaires construits à partir de motivations distinctes, sans dénaturer la promesse centrale de l’offre.</p><div className="tags"><span>ANGLES</span><span>HOOKS</span><span>SCRIPTS</span></div><strong>Voir l’étude de cas <span>→</span></strong></div>
             </a>
-            <article className="nc-project">
+            <a className="nc-project" href="/projects/avant-le-oui/decision-framework">
               <div className="nc-project-visual lilac"><div className="paper"><small>04 · STRATÉGIE · COPYWRITING</small><h4>Avant le Oui</h4><span>APERÇU</span></div></div>
-              <div className="nc-project-copy"><small>STRATÉGIE · COPYWRITING</small><h3>Avant le Oui : Comprendre ce qui précède la décision</h3><p>Un guide de stratégie et de persuasion consacré au positionnement, à la psychologie d’achat, aux niveaux de conscience et au message de conversion.</p><div className="tags"><span>STRATÉGIE</span><span>PSYCHOLOGIE</span><span>MESSAGE</span></div><strong>Projet éditorial <span>→</span></strong></div>
-            </article>
+              <div className="nc-project-copy"><small>STRATÉGIE · COPYWRITING</small><h3>Avant le Oui : Comprendre ce qui précède la décision</h3><p>Une méthode de stratégie et de persuasion consacrée au positionnement, à la psychologie d’achat, aux niveaux de conscience et au message de conversion.</p><div className="tags"><span>STRATÉGIE</span><span>PSYCHOLOGIE</span><span>MESSAGE</span></div><strong>Voir l’étude de cas <span>→</span></strong></div>
+            </a>
           </div>
         </div>
       </section>
