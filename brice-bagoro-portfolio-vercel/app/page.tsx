@@ -46,7 +46,7 @@ export default function Home() {
           <article><b>01</b><h3>Copywriting e-commerce</h3><p>Pages produits, landing pages, propositions de valeur, tunnels et séquences de conversion.</p></article>
           <article><b>02</b><h3>Shopify & conversion</h3><p>Structure de boutique, parcours, navigation, présentation de l’offre et optimisation CRO.</p></article>
           <article><b>03</b><h3>Emails & tunnels de conversion</h3><p>Séquences de bienvenue, nurturing, relance, lancement et contenus orientés passage à l’action.</p></article>
-          <article><b>04</b><h3>Copywriting publicitaire</h3><p>Angles, hooks, textes publicitaires et scripts vidéo pour Meta, TikTok et YouTube.</p></article>
+          <article><b>04</b><h3>Copywriting publicitaire</h3><p>Angles, accroches, textes publicitaires et scripts conçus selon le canal, le format et le niveau de maturité du prospect.</p></article>
         </div>
       </section>
 
