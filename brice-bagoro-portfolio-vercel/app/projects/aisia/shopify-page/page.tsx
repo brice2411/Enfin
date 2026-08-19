@@ -1,4 +1,5 @@
 import styles from "./aisia-case.module.css";
+import preview from "./full-preview.module.css";
 
 export default function AisiaShopifyPage() {
   return (
@@ -50,12 +51,32 @@ export default function AisiaShopifyPage() {
 
       <section className={styles.result}>
         <div className={styles.wrap}>
-          <div className={styles.resultIntro}><span className={styles.eyebrow}>LE RÉSULTAT</span><h2 className={styles.sectionTitle}>Traduire le raisonnement en page produit.</h2><p>Plutôt qu’une capture interminable, trois extraits montrent comment les décisions stratégiques se matérialisent concrètement dans l’expérience.</p></div>
+          <div className={styles.resultIntro}><span className={styles.eyebrow}>LE RÉSULTAT</span><h2 className={styles.sectionTitle}>Traduire le raisonnement en page produit.</h2><p>Trois extraits montrent comment les décisions stratégiques se matérialisent concrètement dans l’expérience.</p></div>
           <div className={styles.resultGrid}>
             <article className={styles.resultCard}><div className={styles.visual}><img src="https://brice-bagoro-portfolio.brice24.chatgpt.site/aisia-brand-hero.png" alt="Hero de la page produit Aisia" /></div><div className={styles.resultCopy}><small>01 · PROMESSE & HIÉRARCHIE</small><h3>Une entrée en matière volontairement crédible</h3><p>Le hero privilégie un bénéfice compréhensible, une structure claire et une présentation mesurée du produit plutôt qu’une transformation spectaculaire.</p></div></article>
             <article className={styles.resultCard}><div className={styles.visual}><img src="https://brice-bagoro-portfolio.brice24.chatgpt.site/aisia-product.png" alt="Présentation du mécanisme Aisia" /></div><div className={styles.resultCopy}><small>02 · MÉCANISME</small><h3>Expliquer avant de pousser la décision</h3><p>Les zones de soutien, la construction et l’usage servent à donner au prospect des raisons concrètes de comprendre ce qu’il achète.</p></div></article>
             <article className={styles.resultCard}><div className={styles.visual}><img src="https://brice-bagoro-portfolio.brice24.chatgpt.site/aisia-guide-mockup.png" alt="Guide et offre Aisia" /></div><div className={styles.resultCopy}><small>03 · OFFRE & CONTINUITÉ</small><h3>Transformer le produit en système cohérent</h3><p>Le protocole et les compléments prolongent la logique d’usage. Ils ne sont pas présentés comme des accessoires isolés, mais comme une continuité naturelle de l’offre principale.</p></div></article>
           </div>
+        </div>
+      </section>
+
+      <section className={preview.fullPreview}>
+        <div className={preview.inner}>
+          <div className={preview.intro}>
+            <span className={preview.kicker}>PAGE PRODUIT COMPLÈTE</span>
+            <h2>Voir comment toutes les décisions s’assemblent.</h2>
+            <p>La page complète reste accessible ici, dans un cadre volontairement compact. Elle permet de relier les choix stratégiques vus plus haut à l’exécution finale sans rallonger inutilement l’étude de cas.</p>
+          </div>
+          <div className={preview.frame}>
+            <div className={preview.browser}>
+              <div className={preview.bar}><span></span><span></span><span></span><strong>AISIA · PAGE PRODUIT</strong></div>
+              <div className={preview.viewport}>
+                <iframe src="/projects/aisia/product-page" title="Page produit complète Aisia" loading="lazy" />
+              </div>
+            </div>
+            <div className={preview.note}>Faites défiler dans l’aperçu pour parcourir la page complète.</div>
+          </div>
+          <a className={preview.open} href="/projects/aisia/product-page" target="_blank" rel="noreferrer">Ouvrir la page produit complète ↗</a>
         </div>
       </section>
 
