@@ -33,7 +33,7 @@ export default function AvantLeOuiBookPage() {
           <h2>Comprendre ce qui précède la décision.</h2>
           <p>Un ouvrage de 139 pages sur le travail qui précède le message : comprendre un marché, lire une audience, diagnostiquer, choisir un angle, construire une créative et transformer les tests en apprentissages.</p>
           <div className={styles.actions}>
-            <a className={styles.primary} href="/avant-le-oui.pdf" target="_blank" rel="noreferrer">Lire le livre ↗</a>
+            <a className={styles.primary} href="/avant-le-oui">Lire le livre en ligne ↗</a>
             <a className={styles.secondary} href="/#portfolio">Voir les autres projets</a>
           </div>
           <div className={styles.meta}><span>139 PAGES</span><span>BRICE BAGORO</span><span>NEUROCONVERT</span></div>
@@ -78,7 +78,7 @@ export default function AvantLeOuiBookPage() {
           <span className={styles.eyebrow}>AVANT LE OUI</span>
           <h2>Entrer dans la réflexion derrière le message.</h2>
           <p>Marché, audience, offre, positionnement, angles, créatives, diagnostic et testing : le livre rassemble la méthode dans un seul parcours.</p>
-          <a href="/avant-le-oui.pdf" target="_blank" rel="noreferrer">Lire le livre complet ↗</a>
+          <a href="/avant-le-oui">Commencer la lecture ↗</a>
         </div>
       </section>
     </main>
