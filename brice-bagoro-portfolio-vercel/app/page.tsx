@@ -70,8 +70,8 @@ export default function Home() {
               <div className="nc-project-copy"><small>COPYWRITING PUBLICITAIRE · ADS</small><h3>Horizon 90 : Un même programme, trois raisons d’y croire</h3><p>Trois concepts publicitaires construits à partir de motivations distinctes, sans dénaturer la promesse centrale de l’offre.</p><div className="tags"><span>ANGLES</span><span>HOOKS</span><span>SCRIPTS</span></div><strong>Voir l’étude de cas <span>→</span></strong></div>
             </a>
             <a className="nc-project" href="/projects/avant-le-oui/decision-framework">
-              <div className="nc-project-visual lilac"><div className="paper"><small>04 · MÉTHODE · STRATÉGIE</small><h4>NeuroConvert</h4><span>APERÇU</span></div></div>
-              <div className="nc-project-copy"><small>MÉTHODE · STRATÉGIE · PERSUASION</small><h3>NeuroConvert : La stratégie avant le message</h3><p>Un ouvrage de référence qui montre comment passer de la recherche marché au diagnostic, puis du diagnostic au positionnement, aux angles, aux créatives et aux tests.</p><div className="tags"><span>MARCHÉ</span><span>STRATÉGIE</span><span>MESSAGE</span></div><strong>Découvrir la méthode <span>→</span></strong></div>
+              <div className="nc-project-visual lilac"><div className="paper"><small>04 · OUVRAGE · NEUROCONVERT</small><h4>Avant le Oui</h4><span>139 PAGES</span></div></div>
+              <div className="nc-project-copy"><small>OUVRAGE · STRATÉGIE · CONVERSION</small><h3>Avant le Oui : Comprendre ce qui précède la décision</h3><p>Un ouvrage de référence qui rend visible le travail avant le message : marché, audience, diagnostic, positionnement, angles, créatives et tests.</p><div className="tags"><span>MARCHÉ</span><span>STRATÉGIE</span><span>MESSAGE</span></div><strong>Découvrir le livre <span>→</span></strong></div>
             </a>
           </div>
         </div>
