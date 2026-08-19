@@ -65,10 +65,10 @@ export default function Home() {
               <div className="nc-project-visual blue"><div className="paper"><small>02 · EMAIL MARKETING</small><h4>Cap Clair</h4><span>APERÇU</span></div></div>
               <div className="nc-project-copy"><small>EMAIL MARKETING · NURTURING</small><h3>Cap Clair : Faire progresser une décision, un email à la fois</h3><p>Une séquence pensée pour faire avancer le prospect progressivement : compréhension, intérêt, confiance puis passage à l’action.</p><div className="tags"><span>EMAILS</span><span>NURTURING</span><span>CONVERSION</span></div><strong>Voir l’étude de cas <span>→</span></strong></div>
             </a>
-            <article className="nc-project">
+            <a className="nc-project" href="/projects/horizon-90/creative-strategy">
               <div className="nc-project-visual peach"><div className="paper"><small>03 · COPYWRITING PUBLICITAIRE</small><h4>Horizon 90</h4><span>APERÇU</span></div></div>
               <div className="nc-project-copy"><small>COPYWRITING PUBLICITAIRE · ADS</small><h3>Horizon 90 : Un même programme, trois raisons d’y croire</h3><p>Trois concepts publicitaires construits à partir de motivations distinctes, sans dénaturer la promesse centrale de l’offre.</p><div className="tags"><span>ANGLES</span><span>HOOKS</span><span>SCRIPTS</span></div><strong>Voir l’étude de cas <span>→</span></strong></div>
-            </article>
+            </a>
             <article className="nc-project">
               <div className="nc-project-visual lilac"><div className="paper"><small>04 · STRATÉGIE · COPYWRITING</small><h4>Avant le Oui</h4><span>APERÇU</span></div></div>
               <div className="nc-project-copy"><small>STRATÉGIE · COPYWRITING</small><h3>Avant le Oui : Comprendre ce qui précède la décision</h3><p>Un guide de stratégie et de persuasion consacré au positionnement, à la psychologie d’achat, aux niveaux de conscience et au message de conversion.</p><div className="tags"><span>STRATÉGIE</span><span>PSYCHOLOGIE</span><span>MESSAGE</span></div><strong>Projet éditorial <span>→</span></strong></div>
