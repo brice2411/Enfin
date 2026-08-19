@@ -15,37 +15,35 @@ const emails = [
       "Votre prospect peut regarder votre offre et penser : « intéressant… mais est-ce vraiment pour moi ? » Ce petit doute suffit à ralentir toute la décision.",
       "Dans les prochains emails, nous allons explorer ce passage : partir de votre expertise, identifier ce qui compte réellement pour votre prospect et construire une offre qu’il peut comprendre sans effort inutile.",
       "Nous commencerons par une question simple : qu’essaie réellement de résoudre votre client lorsqu’il vient vers vous ?"
-    ], cta:"Clarifier ce que mon client cherche"
+    ], cta:"Commencer par le diagnostic"
   },
   {
     n:"02", role:"Éducation", summary:"Pourquoi une bonne expertise reste parfois difficile à vendre",
-    subject:"Une bonne offre peut être difficile à acheter",
-    preheader:"La valeur réelle et la valeur perçue ne se rencontrent pas toujours au premier regard.",
+    subject:"Pourquoi une bonne expertise reste parfois difficile à vendre",
+    preheader:"La qualité de votre travail ne suffit pas si le prospect doit lui-même en deviner la valeur.",
     body:[
       "Bonjour {{prenom}},",
-      "Vous pouvez être excellent dans ce que vous faites et pourtant obliger votre prospect à travailler trop dur pour comprendre pourquoi il devrait vous choisir.",
-      "Imaginez deux offres comparables. La première présente dix bénéfices, six bonus et une longue liste de fonctionnalités. La seconde répond immédiatement à trois questions : « Est-ce pour moi ? », « Qu’est-ce que cela va changer ? » et « Pourquoi cette approche plutôt qu’une autre ? »",
-      "La seconde n’est pas nécessairement meilleure. Elle est simplement plus facile à évaluer.",
-      "C’est là qu’une grande partie de la persuasion se joue : non pas dans la quantité d’arguments, mais dans l’ordre dans lequel le prospect reçoit les bonnes informations.",
-      "Avant d’ajouter un argument, demandez-vous donc : quelle question reste encore sans réponse dans sa tête ?"
-    ], cta:"Identifier la question qui bloque"
+      "Une expertise peut être solide, utile et même rare, tout en restant difficile à choisir.",
+      "Cela arrive lorsque le prospect entend ce que vous faites, mais ne voit pas clairement ce que cela change pour lui. Il reçoit des informations sur votre méthode, vos services ou votre expérience, sans parvenir à relier ces éléments à sa propre situation.",
+      "La solution n’est pas nécessairement d’en dire davantage. Elle consiste à organiser le message autour de ce qu’il cherche à comprendre : où il se trouve, ce qui le bloque, le résultat qu’il peut viser et pourquoi votre approche constitue un chemin crédible.",
+      "C’est cette traduction de l’expertise en valeur perçue que nous travaillons pendant Cap Clair."
+    ], cta:"Comprendre la méthode Cap Clair"
   },
   {
     n:"03", role:"Ouverture", summary:"5 jours pour rendre votre offre plus simple à comprendre",
     subject:"5 jours pour rendre votre offre plus simple à comprendre",
-    preheader:"Cap Clair ouvre aujourd’hui : voici le travail que nous allons faire ensemble.",
+    preheader:"Un programme court pour clarifier votre valeur, votre promesse et la manière de les présenter.",
     body:[
       "Bonjour {{prenom}},",
-      "Les inscriptions à Cap Clair sont ouvertes.",
-      "Pendant 5 jours, nous n’allons pas chercher à rendre votre offre plus bruyante. Nous allons chercher à la rendre plus évidente.",
-      "Jour 1 : isoler le vrai problème que votre prospect veut résoudre. Jour 2 : repérer ce qu’il sait déjà et ce qu’il ne croit plus. Jour 3 : clarifier votre promesse et votre différence. Jour 4 : organiser les preuves et les objections. Jour 5 : transformer le tout en un message que l’on comprend rapidement.",
-      "Le résultat attendu n’est pas une jolie phrase. C’est une architecture de décision : votre prospect doit savoir ce que vous proposez, pourquoi cela compte et pourquoi il devrait continuer à vous écouter.",
-      "Si votre offre est solide mais que son message vous semble encore trop compliqué, Cap Clair a été construit précisément pour ce moment."
+      "Cap Clair est un programme intensif de cinq jours conçu pour transformer une expertise difficile à résumer en une offre plus facile à comprendre et à choisir.",
+      "Nous partirons de votre marché et des situations concrètes de vos prospects. Vous identifierez ensuite la valeur centrale de votre offre, les objections qui ralentissent la décision et les preuves qui rendent votre promesse crédible.",
+      "À la fin du programme, vous disposerez d’un message central, d’une proposition de valeur et d’une structure d’offre que vous pourrez appliquer à votre page, vos emails ou vos conversations commerciales.",
+      "Il ne s’agit pas de rendre votre activité simpliste. Il s’agit de retirer ce qui oblige encore votre prospect à faire lui-même le travail de compréhension."
     ], cta:"Rejoindre Cap Clair"
   },
   {
     n:"04", role:"Méthode", summary:"Ce que nous allons clarifier : et dans quel ordre",
-    subject:"On ne corrige pas une offre dans n’importe quel ordre",
+    subject:"Ce que nous allons clarifier : et dans quel ordre",
     preheader:"Promesse, objections, preuves, mécanisme : chaque élément arrive à un moment précis.",
     body:[
       "Bonjour {{prenom}},",
@@ -71,8 +69,8 @@ const emails = [
   },
   {
     n:"06", role:"Décision", summary:"Ce que vous repartez avec à la fin de Cap Clair",
-    subject:"À la fin, vous ne repartez pas avec “plus d’idées”",
-    preheader:"Vous repartez avec des décisions plus nettes sur votre offre et votre message.",
+    subject:"Ce que vous repartez avec à la fin de Cap Clair",
+    preheader:"Pas plus d’idées : des décisions plus nettes sur votre offre et votre message.",
     body:[
       "Bonjour {{prenom}},",
       "Cap Clair ferme demain.",
@@ -84,8 +82,8 @@ const emails = [
   },
   {
     n:"07", role:"Clôture", summary:"Les inscriptions ferment ce soir : voici comment décider",
-    subject:"Ce soir, Cap Clair ferme ses portes",
-    preheader:"Une dernière question pour savoir si vous devez nous rejoindre.",
+    subject:"Les inscriptions ferment ce soir : voici comment décider",
+    preheader:"Une dernière question pour savoir si Cap Clair est réellement le bon choix pour vous.",
     body:[
       "Bonjour {{prenom}},",
       "Les inscriptions à Cap Clair ferment ce soir.",
