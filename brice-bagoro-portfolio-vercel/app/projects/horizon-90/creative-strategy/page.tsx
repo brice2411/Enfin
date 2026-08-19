@@ -42,7 +42,7 @@ export default function Horizon90CasePage() {
         <span className={styles.eyebrow}>ÉTUDE DE CAS · STRATÉGIE CRÉATIVE · COPYWRITING PUBLICITAIRE</span>
         <h1>Une offre.<br/><em>Trois raisons différentes d’y croire.</em></h1>
         <div className={styles.heroGrid}>
-          <p>Horizon 90 est un programme de remise en forme sur 90 jours construit autour d’une progression réaliste : reprendre une routine, développer la constance puis stabiliser les habitudes. L’étude ne cherche pas « la meilleure pub » : elle construit trois portes d’entrée psychologiques pour tester ce qui déclenche réellement l’attention et la croyance.</p>
+          <p>Horizon 90 est un programme de remise en forme sur 90 jours pensé pour des personnes qui ont déjà essayé de reprendre une routine sans réussir à la maintenir. La promesse n’est donc pas simplement « se remettre en forme », mais rendre la progression suffisamment réaliste pour qu’elle puisse durer. Le travail créatif part de cette tension : une même offre peut devenir pertinente pour des raisons très différentes. Plutôt que de concentrer identité, frustration et méthode dans une seule publicité, l’étude isole trois hypothèses de persuasion pour observer laquelle crée le plus d’attention, de croyance et d’intention.</p>
           <div className={styles.meta}><span>ANGLES</span><span>HOOKS</span><span>CREATIVE STRATEGY</span><span>ADS</span></div>
         </div>
       </header>
