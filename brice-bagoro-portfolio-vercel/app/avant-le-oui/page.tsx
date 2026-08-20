@@ -1,6 +1,6 @@
 import styles from "./reader.module.css";
 
-const downloadUrl = "https://www.dropbox.com/scl/fi/e0tlrlcznt0b4xg3ben3c/avant-le-oui-download.pdf?rlkey=rhpmnhfo58sk2nl7rnwf3mx6b&st=wedb9zw5&dl=1";
+const downloadUrl = "https://www.dropbox.com/scl/fi/egbefj2s38jpnbws5489p/Avant_le_Oui_Brice_Bagoro_NeuroConvert.pdf?rlkey=vzegfiq4a82s5lfteodtjmja9&st=y8mgp5qx&dl=1";
 
 const discoveries = [
   {
