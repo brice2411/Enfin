@@ -1,13 +1,10 @@
-import { inflateSync } from "node:zlib";
 import part0 from "./book-part0";
 import part1 from "./book-part1";
 import part2 from "./book-part2";
 import part3 from "./book-part3";
-import bookRest from "./book-rest";
 import styles from "./reader.module.css";
 
-const remainingHtml = inflateSync(Buffer.from(bookRest, "base64")).toString("utf8");
-const bookHtml = [part0, part1, part2, part3, remainingHtml].join("");
+const bookHtml = [part0, part1, part2, part3].join("");
 
 export const dynamic = "force-static";
 
