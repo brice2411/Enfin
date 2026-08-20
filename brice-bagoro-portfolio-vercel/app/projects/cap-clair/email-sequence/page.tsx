@@ -3,6 +3,7 @@
 import { useState } from "react";
 import styles from "./cap-clair-case.module.css";
 
+// Clean JSX checkpoint for production deployment.
 const emails = [
   {
     n: "01",
@@ -11,7 +12,7 @@ const emails = [
     subject: "Vous n’avez probablement pas besoin d’une nouvelle idée",
     preheader: "Le problème se trouve souvent entre ce que vous savez faire et ce que votre prospect comprend.",
     body: [
-      "Bonjour {{prenom}},",
+      "Bonjour {{prenom}} ,",
       "Quand une offre ne trouve pas sa place, le premier réflexe consiste souvent à ajouter : un nouveau bonus, une nouvelle promesse, un nouveau canal ou même une nouvelle offre.",
       "Pourtant, le problème n’est pas toujours ce qui manque. Il se trouve parfois entre la valeur que vous savez apporter et la manière dont cette valeur est comprise.",
       "Votre prospect peut regarder votre offre et penser : « intéressant… mais est-ce vraiment pour moi ? » Ce petit doute suffit à ralentir toute la décision.",
@@ -27,7 +28,7 @@ const emails = [
     subject: "Pourquoi une bonne expertise reste parfois difficile à vendre",
     preheader: "La qualité de votre travail ne suffit pas si le prospect doit lui-même en deviner la valeur.",
     body: [
-      "Bonjour {{prenom}},",
+      "Bonjour {{prenom}} ,",
       "Une expertise peut être solide, utile et même rare, tout en restant difficile à choisir.",
       "Cela arrive lorsque le prospect entend ce que vous faites, mais ne voit pas clairement ce que cela change pour lui. Il reçoit des informations sur votre méthode, vos services ou votre expérience, sans parvenir à relier ces éléments à sa propre situation.",
       "La solution n’est pas nécessairement d’en dire davantage. Elle consiste à organiser le message autour de ce qu’il cherche à comprendre : où il se trouve, ce qui le bloque, le résultat qu’il peut viser et pourquoi votre approche constitue un chemin crédible.",
@@ -42,7 +43,7 @@ const emails = [
     subject: "5 jours pour rendre votre offre plus simple à comprendre",
     preheader: "Un programme court pour clarifier votre valeur, votre promesse et la manière de les présenter.",
     body: [
-      "Bonjour {{prenom}},",
+      "Bonjour {{prenom}} ,",
       "Cap Clair est un programme intensif de cinq jours conçu pour transformer une expertise difficile à résumer en une offre plus facile à comprendre et à choisir.",
       "Nous partirons de votre marché et des situations concrètes de vos prospects. Vous identifierez ensuite la valeur centrale de votre offre, les objections qui ralentissent la décision et les preuves qui rendent votre promesse crédible.",
       "À la fin du programme, vous disposerez d’un message central, d’une proposition de valeur et d’une structure d’offre que vous pourrez appliquer à votre page, vos emails ou vos conversations commerciales.",
@@ -57,7 +58,7 @@ const emails = [
     subject: "Ce que nous allons clarifier : et dans quel ordre",
     preheader: "Promesse, objections, preuves, mécanisme : chaque élément arrive à un moment précis.",
     body: [
-      "Bonjour {{prenom}},",
+      "Bonjour {{prenom}} ,",
       "Une erreur fréquente consiste à travailler directement sur les mots : le titre, le CTA, les bullets, les emails.",
       "Mais un texte ne peut pas réparer une stratégie encore floue.",
       "Dans Cap Clair, l’ordre est volontaire. D’abord : qui essaie de décider ? Ensuite : que sait déjà cette personne ? Puis : qu’a-t-elle trop entendu ? Que refuse-t-elle encore de croire ? Enfin seulement : quelle promesse, quelle preuve et quel angle peuvent réellement faire avancer sa décision ?",
@@ -73,7 +74,7 @@ const emails = [
     subject: "« Mon activité est trop différente pour suivre une méthode »",
     preheader: "Une méthode stratégique ne standardise pas votre offre : elle standardise les bonnes questions.",
     body: [
-      "Bonjour {{prenom}},",
+      "Bonjour {{prenom}} ,",
       "Peut-être que vous pensez : « D’accord, mais mon activité est particulière. Mes clients ne réagissent pas comme ceux des autres. »",
       "Et vous avez raison sur un point : le message final ne devrait pas être identique.",
       "Cap Clair ne vous demande pas d’utiliser la même promesse, le même angle ou le même tunnel que tout le monde. La méthode fournit plutôt un ordre de diagnostic : niveau de conscience, sophistication du marché, scepticisme, objections, désir, preuve et risque perçu.",
@@ -89,7 +90,7 @@ const emails = [
     subject: "Ce que vous repartez avec à la fin de Cap Clair",
     preheader: "Pas plus d’idées : des décisions plus nettes sur votre offre et votre message.",
     body: [
-      "Bonjour {{prenom}},",
+      "Bonjour {{prenom}} ,",
       "Cap Clair ferme demain.",
       "Avant que vous décidiez, voici ce que le programme cherche réellement à produire.",
       "Pas cinquante nouveaux angles. Pas un document rempli de jargon. Mais une lecture plus précise de votre marché, une proposition de valeur mieux hiérarchisée, les objections qui méritent réellement une réponse, les preuves qui doivent porter votre promesse et une direction de message suffisamment claire pour être déployée sur une page, un email ou une publicité.",
@@ -105,7 +106,7 @@ const emails = [
     subject: "Les inscriptions ferment ce soir : voici comment décider",
     preheader: "Une dernière question pour savoir si Cap Clair est réellement le bon choix pour vous.",
     body: [
-      "Bonjour {{prenom}},",
+      "Bonjour {{prenom}} ,",
       "Les inscriptions à Cap Clair ferment ce soir.",
       "Je pourrais terminer en ajoutant une nouvelle liste de bénéfices. Mais ce serait précisément l’inverse de ce que nous avons défendu pendant cette séquence.",
       "Alors voici une seule question : votre problème actuel vient-il d’un manque réel de valeur dans votre offre… ou du fait que cette valeur n’est pas encore assez simple à comprendre, à croire et à choisir ?",
