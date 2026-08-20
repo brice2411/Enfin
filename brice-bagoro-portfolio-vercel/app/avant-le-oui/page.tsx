@@ -5,6 +5,7 @@ import part3 from "./book-part3";
 import styles from "./reader.module.css";
 
 const bookHtml = [part0, part1, part2, part3].join("");
+const downloadUrl = "https://www.dropbox.com/scl/fi/e0tlrlcznt0b4xg3ben3c/avant-le-oui-download.pdf?rlkey=rhpmnhfo58sk2nl7rnwf3mx6b&st=wedb9zw5&dl=1";
 
 export const dynamic = "force-static";
 
@@ -32,7 +33,17 @@ export default function AvantLeOuiReader() {
           <span>OUVRAGE · 139 PAGES</span>
           <h1>Avant le Oui</h1>
           <p>Comprendre ce qui précède la décision.</p>
-          <a href="#lecture">Commencer la lecture ↓</a>
+          <div className={styles.actions}>
+            <a href="#lecture">Commencer la lecture ↓</a>
+            <a
+              className={styles.download}
+              href={downloadUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Télécharger le livre en PDF ↓
+            </a>
+          </div>
         </div>
       </header>
 
@@ -51,7 +62,10 @@ export default function AvantLeOuiReader() {
       <footer className={styles.footer}>
         <strong>Avant le Oui</strong>
         <span>Brice Bagoro · NeuroConvert</span>
-        <a href="/#portfolio">Retour au portfolio ↗</a>
+        <div className={styles.footerLinks}>
+          <a href={downloadUrl} target="_blank" rel="noreferrer">Télécharger le PDF ↓</a>
+          <a href="/#portfolio">Retour au portfolio ↗</a>
+        </div>
       </footer>
     </main>
   );
