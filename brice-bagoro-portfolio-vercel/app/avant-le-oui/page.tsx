@@ -3,15 +3,10 @@ import part0 from "./book-part0";
 import part1 from "./book-part1";
 import part2 from "./book-part2";
 import part3 from "./book-part3";
-import rest0 from "./rest0";
-import rest1 from "./rest1";
-import rest2 from "./rest2";
-import rest3 from "./rest3";
-import rest4 from "./rest4";
+import bookRest from "./book-rest";
 import styles from "./reader.module.css";
 
-const compressed = [rest0, rest1, rest2, rest3, rest4].join("");
-const remainingHtml = inflateSync(Buffer.from(compressed, "base64")).toString("utf8");
+const remainingHtml = inflateSync(Buffer.from(bookRest, "base64")).toString("utf8");
 const bookHtml = [part0, part1, part2, part3, remainingHtml].join("");
 
 export const dynamic = "force-static";
