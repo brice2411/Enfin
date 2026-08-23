@@ -73,9 +73,9 @@ export default function Home() {
               <div className="nc-project-copy"><small>ADS · ANGLES · SCRIPTS</small><h3>Horizon 90 : une même offre, plusieurs raisons d’y croire</h3><p>Trois concepts publicitaires construits autour de motivations distinctes pour tester différentes portes d’entrée sans diluer la promesse centrale.</p><div className="tags"><span>ANGLES</span><span>HOOKS</span><span>SCRIPTS</span></div><strong>Voir l’étude de cas <span>→</span></strong></div>
             </a>
 
-            <a className="nc-project" href="/copywriting-strategie">
+            <a className="nc-project" href="https://www.dropbox.com/scl/fi/49b17znfkal8rtjomyvej/Copywriting-et-Strategie.pdf?rlkey=aqfieo537sw0exwmu8ot4m1bl&st=ghf0qazf&dl=0" target="_blank" rel="noreferrer">
               <div className="nc-project-visual book"><div className="paper"><small>04 · GUIDE · NEUROCONVERT</small><h4>Persuasion,<em>psychologie d’achat</em>& structures de copywriting</h4><span>14 PAGES</span></div></div>
-              <div className="nc-project-copy"><small>GUIDE · STRATÉGIE · COPYWRITING</small><h3>Comprendre avant d’écrire.</h3><p>Un guide qui relie conscience, sophistication, scepticisme, positionnement et structures de persuasion pour montrer comment choisir le bon message avant de chercher les bons mots.</p><div className="tags"><span>PSYCHOLOGIE D’ACHAT</span><span>AIDA</span><span>PAS</span><span>BAB</span></div><strong>Découvrir le guide <span>→</span></strong></div>
+              <div className="nc-project-copy"><small>GUIDE · STRATÉGIE · COPYWRITING</small><h3>Comprendre avant d’écrire.</h3><p>Un guide qui relie conscience, sophistication, scepticisme, positionnement et structures de persuasion pour montrer comment choisir le bon message avant de chercher les bons mots.</p><div className="tags"><span>PSYCHOLOGIE D’ACHAT</span><span>AIDA</span><span>PAS</span><span>BAB</span></div><strong>Ouvrir le guide <span>↗</span></strong></div>
             </a>
           </div>
         </div>
