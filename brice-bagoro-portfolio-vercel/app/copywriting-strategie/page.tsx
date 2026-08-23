@@ -1,4 +1,6 @@
 export default function CopywritingStrategie() {
+  const guideUrl = "https://www.dropbox.com/scl/fi/49b17znfkal8rtjomyvej/Copywriting-et-Strategie.pdf?rlkey=aqfieo537sw0exwmu8ot4m1bl&st=ghf0qazf&dl=1";
+
   return (
     <main className="nc-site">
       <nav className="nc-nav nc-wrap">
@@ -12,7 +14,10 @@ export default function CopywritingStrategie() {
         <h1 style={{maxWidth:"1080px"}}>Persuasion, psychologie d’achat<span>& structures de copywriting.</span></h1>
         <div className="nc-hero-bottom">
           <p>Comprendre le prospect. Positionner le bon message. Structurer une persuasion claire, crédible et adaptée au niveau de maturité de l’audience.</p>
-          <div className="nc-hero-actions"><a className="nc-primary" href="#contenu">Explorer le contenu <b>↓</b></a><a className="nc-secondary" href="/#portfolio">Retour au portfolio ↗</a></div>
+          <div className="nc-hero-actions">
+            <a className="nc-primary" href={guideUrl} target="_blank" rel="noreferrer">Télécharger le guide <b>↓</b></a>
+            <a className="nc-secondary" href="#contenu">Explorer le contenu ↓</a>
+          </div>
         </div>
       </header>
 
@@ -38,13 +43,19 @@ export default function CopywritingStrategie() {
           <article><b>04</b><h3>AIDA, PAS & BAB</h3><p>Chaque structure est expliquée dans sa logique, ses limites et son comportement selon l’email, la landing page, la publicité ou le script UGC.</p></article>
           <article><b>05</b><h3>Du raisonnement à l’exécution</h3><p>Comprendre → Positionner → Structurer → Écrire : choisir la structure en fonction du problème de persuasion, pas par habitude.</p></article>
         </div>
+        <div style={{display:"flex",justifyContent:"center",marginTop:"42px"}}>
+          <a className="nc-primary" href={guideUrl} target="_blank" rel="noreferrer" style={{minWidth:"230px"}}>Télécharger le PDF <b>↓</b></a>
+        </div>
       </section>
 
       <section className="nc-cta">
         <span>PRINCIPE DE TRAVAIL</span>
         <h2>Comprendre → Positionner → Structurer → Écrire.</h2>
         <p>Le bon texte arrive avec le bon angle, au bon niveau de maturité et avec suffisamment de raisons de croire.</p>
-        <a href="/#contact">Parler d’un projet ↗</a>
+        <div style={{display:"flex",gap:"22px",justifyContent:"center",alignItems:"center",flexWrap:"wrap"}}>
+          <a href={guideUrl} target="_blank" rel="noreferrer">Télécharger le guide ↓</a>
+          <a href="/#contact">Parler d’un projet ↗</a>
+        </div>
       </section>
       <footer className="nc-footer"><span>© 2026 Brice Bagoro</span><span>Copywriting · E-commerce · Conversion</span><a href="/">Retour à l’accueil</a></footer>
     </main>
