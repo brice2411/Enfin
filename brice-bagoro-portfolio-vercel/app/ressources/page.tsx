@@ -6,7 +6,7 @@ const resources = [
     meta: "9 pages · Français",
     cover: "Recueil d’emails — e-commerce & offres digitales",
     detail: "Séquences e-commerce et offres digitales",
-    download: "",
+    download: "https://www.dropbox.com/scl/fi/k4chzei3ngovzzah7jztz/Email_Copywriting_Brice_Bagoro.pdf?rlkey=7giqu7gptug1zmon50irysqo6&st=s651xya8&dl=1",
   },
   {
     id: "paid-ads",
@@ -15,7 +15,7 @@ const resources = [
     meta: "10 pages · Français",
     cover: "Recueil de hooks, angles & textes publicitaires",
     detail: "Hooks · Angles · Meta Ads",
-    download: "",
+    download: "https://www.dropbox.com/scl/fi/5unvzvnh1s8t0bbjojvqq/Paid_Ads_Angles_Brice_Bagoro.pdf?rlkey=ujfb9pkww3xthq0thfwiw82yy&st=o8tty1zt&dl=1",
   },
   {
     id: "creative-scripts",
