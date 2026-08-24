@@ -24,7 +24,7 @@ const resources = [
     meta: "10 pages · Français",
     cover: "Recueil de scripts courts, tournables et orientés conversion",
     detail: "UGC · Face caméra · Démonstration",
-    download: "",
+    download: "https://www.dropbox.com/scl/fi/rpsdqatwgbj3ovilge65p/Creative_Scripts_UGC_Brice_Bagoro.pdf?rlkey=1sryxce5lh4bva4mwdt6imwny&st=f1omq8oa&dl=1",
   },
   {
     id: "copywriting-strategie",
