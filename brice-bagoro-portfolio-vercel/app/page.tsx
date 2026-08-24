@@ -6,6 +6,7 @@ export default function Home() {
         <div className="nc-navlinks">
           <a href="#expertise">Expertise</a>
           <a href="#portfolio">Portfolio</a>
+          <a href="/ressources">Ressources</a>
           <a href="#about">À propos</a>
         </div>
         <a className="nc-contact" href="#contact">Me contacter ↗</a>
