@@ -4,7 +4,7 @@ const resources = [
     type: "EMAIL",
     title: "Email Copywriting",
     meta: "9 pages · Français",
-    cover: "Recueil d’emails — e-commerce & offres digitales",
+    cover: "Recueil d’emails, e-commerce et offres digitales",
     detail: "Séquences e-commerce et offres digitales",
     download: "https://www.dropbox.com/scl/fi/k4chzei3ngovzzah7jztz/Email_Copywriting_Brice_Bagoro.pdf?rlkey=7giqu7gptug1zmon50irysqo6&st=s651xya8&dl=1",
   },
@@ -13,7 +13,7 @@ const resources = [
     type: "ADS",
     title: "Paid Ads & Angles",
     meta: "10 pages · Français",
-    cover: "Recueil de hooks, angles & textes publicitaires",
+    cover: "Recueil de hooks, angles et textes publicitaires",
     detail: "Hooks · Angles · Meta Ads",
     download: "https://www.dropbox.com/scl/fi/5unvzvnh1s8t0bbjojvqq/Paid_Ads_Angles_Brice_Bagoro.pdf?rlkey=ujfb9pkww3xthq0thfwiw82yy&st=o8tty1zt&dl=1",
   },
@@ -56,15 +56,15 @@ export default function Ressources() {
           <span>RESSOURCES</span>
           <h1>Bibliothèque de travaux.</h1>
         </div>
-        <p>Sélection de documents en copywriting, email, publicité et scripts.</p>
+        <p>Sélection de travaux en copywriting, email, publicité et scripts.</p>
       </header>
 
       <section className="nc-doc-library nc-wrap">
-        {resources.map((resource, i) => (
+        {resources.map((resource) => (
           <article className="nc-doc-card" key={resource.id}>
             <a className="nc-doc-thumb" href={`#preview-${resource.id}`} aria-label={`Prévisualiser ${resource.title}`}>
               <div className="nc-doc-paper">
-                <small>DOCUMENT {String(i + 1).padStart(2, "0")}</small>
+                <small>{resource.type}</small>
                 <h2>{resource.title}</h2>
                 <p>{resource.cover}</p>
                 <div className="nc-doc-line" />
@@ -88,7 +88,7 @@ export default function Ressources() {
                 </div>
                 <div className="nc-doc-modal-body">
                   <div className="nc-doc-large">
-                    <small>DOCUMENT {String(i + 1).padStart(2, "0")}</small>
+                    <small>{resource.type}</small>
                     <h2>{resource.title}</h2>
                     <p>{resource.cover}</p>
                     <div className="nc-doc-line" />
@@ -98,7 +98,7 @@ export default function Ressources() {
                   </div>
                   <div className="nc-doc-modal-actions">
                     <p>{resource.meta}</p>
-                    {resource.download ? <a className="nc-primary" href={resource.download} target="_blank" rel="noreferrer">Télécharger le PDF <b>↓</b></a> : <span>PDF prêt — lien public à connecter</span>}
+                    <a className="nc-primary" href={resource.download} target="_blank" rel="noreferrer">Télécharger le PDF <b>↓</b></a>
                   </div>
                 </div>
               </div>
