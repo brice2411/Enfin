@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./portfolio-polish.css";
 import "./premium-v2.css";
+import "./resources-v1.css";
 
 export const metadata: Metadata = {
   title: "Brice Bagoro — E-commerce, Shopify, Copywriting & Conversion",
