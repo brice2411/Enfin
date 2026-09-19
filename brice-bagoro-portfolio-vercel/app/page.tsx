@@ -15,7 +15,13 @@ export default function Home() {
       <header className="nc-hero nc-wrap" id="top">
         <div className="nc-status">CREATIVE STRATEGY & COPYWRITING · E-COMMERCE</div>
         <h1>Trouvez de nouveaux angles.<span>Transformez-les en concepts publicitaires.</span></h1>
-        <div className="nc-hero-bottom">
+        <div className="nc-hero-art" aria-hidden="true">
+  <div className="nc-orbit orbit-a"></div><div className="nc-orbit orbit-b"></div>
+  <div className="nc-art-core"><span>ANGLE</span><b>?</b></div>
+  <div className="nc-art-note note-a">INSIGHT</div><div className="nc-art-note note-b">HOOK</div><div className="nc-art-note note-c">CONCEPT</div>
+  <svg viewBox="0 0 700 360"><path d="M105 250 C210 65 300 300 410 130 S575 100 620 55" fill="none" stroke="currentColor" strokeWidth="2"/><circle cx="105" cy="250" r="5" fill="currentColor"/><circle cx="410" cy="130" r="5" fill="currentColor"/><circle cx="620" cy="55" r="5" fill="currentColor"/></svg>
+</div>
+<div className="nc-hero-bottom">
           <p>J’aide les marques e-commerce actives sur Meta à trouver de nouvelles façons de vendre leur offre — puis à les transformer en concepts, hooks, textes publicitaires, scripts et briefs prêts à produire.</p>
           <div className="nc-hero-actions">
             <a className="nc-primary" href="#portfolio">Voir les réalisations <b>↗</b></a>
@@ -23,6 +29,8 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      <section className="nc-insight-strip"><div className="nc-wrap nc-insight-inner"><span>UNE CRÉATIVE NE COMMENCE PAS PAR UN HOOK.</span><strong>Elle commence par une raison de croire.</strong><i>↘</i></div></section>
 
       <section className="nc-method">
         <div className="nc-method-inner">
@@ -35,6 +43,7 @@ export default function Home() {
             <article><small>03 · PRÉPARER</small><h3>Copy & production</h3><p>Scripts · textes publicitaires · headlines · briefs · priorités de test.</p></article>
           </div>
           <div className="nc-method-tags"><span>RESEARCH</span><span>ANGLES</span><span>CONCEPTS</span><span>COPY</span><span>BRIEFS</span></div>
+          <div className="nc-method-diagram" aria-hidden="true"><div><b>PROBLÈME</b><span>→</span><b>MOTIVATION</b><span>→</span><b>ANGLE</b><span>→</span><b>CONCEPT</b><span>→</span><b>TEST</b></div></div>
         </div>
       </section>
 
@@ -54,6 +63,7 @@ export default function Home() {
 
       <section className="nc-portfolio" id="portfolio">
         <div className="nc-wrap">
+          <div className="nc-portfolio-mark" aria-hidden="true"><span>01</span><span>02</span><span>03</span><span>04</span></div>
           <div className="nc-section-intro dark">
             <span>RÉALISATIONS</span>
             <h2>Des idées construites autour d’un raisonnement, pas d’une liste de hooks.</h2>
