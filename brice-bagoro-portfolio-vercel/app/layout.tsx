@@ -5,8 +5,8 @@ import "./premium-v2.css";
 import "./resources-v1.css";
 
 export const metadata: Metadata = {
-  title: "Brice Bagoro — E-commerce, Shopify, Copywriting & Conversion",
-  description: "Portfolio de Brice Bagoro : stratégie de conversion, Shopify, copywriting, email marketing et publicité.",
+  title: "NeuroConvert — Creative Strategy & Copywriting e-commerce",
+  description: "Angles, concepts publicitaires, hooks, scripts et textes pour aider les marques e-commerce à renouveler leurs créatives et préparer de nouveaux tests sur Meta.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
