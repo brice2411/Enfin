@@ -14,7 +14,7 @@ export default function Home() {
 
       <header className="nc-hero nc-wrap" id="top">
         <div className="nc-status">CREATIVE STRATEGY & COPYWRITING · E-COMMERCE</div>
-        <h1>Trouvez de nouveaux angles.<span>Transformez-les en concepts publicitaires.</span></h1>
+        <h1>Le problème n’est pas toujours de créer plus.<span>C’est de trouver quoi dire ensuite.</span></h1>
         <div className="nc-hero-art" aria-hidden="true">
   <div className="nc-orbit orbit-a"></div><div className="nc-orbit orbit-b"></div>
   <div className="nc-art-core"><span>ANGLE</span><b>?</b></div>
@@ -22,7 +22,7 @@ export default function Home() {
   <svg viewBox="0 0 700 360"><path d="M105 250 C210 65 300 300 410 130 S575 100 620 55" fill="none" stroke="currentColor" strokeWidth="2"/><circle cx="105" cy="250" r="5" fill="currentColor"/><circle cx="410" cy="130" r="5" fill="currentColor"/><circle cx="620" cy="55" r="5" fill="currentColor"/></svg>
 </div>
 <div className="nc-hero-bottom">
-          <p>J’aide les marques e-commerce actives sur Meta à trouver de nouvelles façons de vendre leur offre — puis à les transformer en concepts, hooks, textes publicitaires, scripts et briefs prêts à produire.</p>
+          <p>J’aide les marques e-commerce qui communiquent déjà sur Meta à découvrir de nouvelles raisons d’acheter leur offre. Recherche, angles, concepts, hooks, copy et briefs : tout ce qu’il faut pour transformer une intuition en créative prête à être produite et testée.</p>
           <div className="nc-hero-actions">
             <a className="nc-primary" href="#portfolio">Voir les réalisations <b>↗</b></a>
             <a className="nc-secondary" href="#offre">Découvrir l’approche ↗</a>
@@ -30,17 +30,17 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="nc-insight-strip"><div className="nc-wrap nc-insight-inner"><span>UNE CRÉATIVE NE COMMENCE PAS PAR UN HOOK.</span><strong>Elle commence par une raison de croire.</strong><i>↘</i></div></section>
+      <section className="nc-insight-strip"><div className="nc-wrap nc-insight-inner"><span>UNE CRÉATIVE NE COMMENCE PAS PAR UN HOOK.</span><strong>Elle commence par une raison de croire.</strong><p>Quand une marque répète la même promesse sous dix formats différents, elle ne teste pas vraiment dix idées. Elle raconte dix fois la même histoire. Le travail créatif commence donc avant l’écriture : par la recherche de ce qui peut encore être dit.</p><i>↘</i></div></section>
 
       <section className="nc-method">
         <div className="nc-method-inner">
-          <div className="nc-method-kicker">DE LA RECHERCHE À LA CRÉATIVE À TESTER</div>
+          <div className="nc-method-kicker">UNE CRÉATIVE EST UNE HYPOTHÈSE À TESTER</div>
           <div className="nc-method-grid">
-            <article><small>01 · RECHERCHER</small><h3>Marché & audience</h3><p>Clients · objections · désirs · usages · concurrents · langage · preuves.</p></article>
+            <article><small>01 · RECHERCHER</small><h3>Comprendre avant d’inventer</h3><p>Avis clients, objections, motivations, usages, concurrents et créatives déjà diffusées. La recherche sert à trouver les tensions et les raisons d’acheter que la marque n’exploite pas encore.</p></article>
             <span>→</span>
-            <article className="active"><small>02 · CONCEVOIR</small><h3>Angles & concepts</h3><p>Insights · promesses · mécanismes · hooks · messages · concepts publicitaires.</p></article>
+            <article className="active"><small>02 · CONCEVOIR</small><h3>Choisir une nouvelle porte d’entrée</h3><p>Un angle donne une raison de regarder l’offre autrement. Le concept transforme cette hypothèse en idée créative : claire, distinctive et suffisamment concrète pour être produite.</p></article>
             <span>→</span>
-            <article><small>03 · PRÉPARER</small><h3>Copy & production</h3><p>Scripts · textes publicitaires · headlines · briefs · priorités de test.</p></article>
+            <article><small>03 · PRÉPARER</small><h3>Donner une direction à l’exécution</h3><p>Hooks, copy, scripts et briefs rendent l’idée exploitable. Chaque élément précise ce que la créative doit montrer, dire ou faire comprendre — et ce que le test cherche à apprendre.</p></article>
           </div>
           <div className="nc-method-tags"><span>RESEARCH</span><span>ANGLES</span><span>CONCEPTS</span><span>COPY</span><span>BRIEFS</span></div>
           <div className="nc-method-diagram" aria-hidden="true"><div><b>PROBLÈME</b><span>→</span><b>MOTIVATION</b><span>→</span><b>ANGLE</b><span>→</span><b>CONCEPT</b><span>→</span><b>TEST</b></div></div>
@@ -50,14 +50,14 @@ export default function Home() {
       <section className="nc-expertise nc-wrap" id="offre">
         <div className="nc-section-intro">
           <span>L’OFFRE</span>
-          <h2>Pas plus de contenu. De meilleures idées à tester.</h2>
+          <h2>Le contenu vient après l’idée.</h2>
         </div>
         <div className="nc-service-list">
-          <article><b>01</b><h3>Recherche créative</h3><p>Lecture du marché, des clients, des concurrents et des créatives existantes pour repérer les motivations, objections et opportunités encore peu exploitées.</p></article>
-          <article><b>02</b><h3>Angles & concepts</h3><p>Transformation des insights en angles publicitaires clairs, puis en concepts suffisamment développés pour être produits et testés sur Meta.</p></article>
-          <article><b>03</b><h3>Hooks & copy publicitaire</h3><p>Hooks, textes principaux, headlines et messages adaptés à chaque concept pour donner une direction claire à la créative.</p></article>
-          <article><b>04</b><h3>Scripts & briefs de production</h3><p>Scripts vidéo, structure des scènes, éléments de preuve, texte à l’écran, CTA et indications utiles au créateur, au vidéaste ou à l’équipe interne.</p></article>
-          <article><b>05</b><h3>Priorisation des tests</h3><p>Une sélection structurée des concepts à tester en priorité, avec l’hypothèse derrière chaque idée et ce que le test doit permettre d’apprendre.</p></article>
+          <article><b>01</b><h3>Recherche créative</h3><p>Lire ce qui existe déjà avant d’ajouter du bruit : marché, concurrents, avis, commentaires, objections, motivations et créatives en circulation. L’objectif est d’identifier les espaces de communication encore ouverts.</p></article>
+          <article><b>02</b><h3>Angles & concepts</h3><p>Passer d’un insight à une hypothèse publicitaire. L’angle définit la raison de croire ; le concept donne à cette raison une forme créative que l’on peut produire, lancer et comparer.</p></article>
+          <article><b>03</b><h3>Hooks & copy publicitaire</h3><p>Le hook attire l’attention, mais il ne porte pas toute la créative. Copy, headlines et messages prolongent l’idée centrale pour que le prospect comprenne rapidement pourquoi cette offre mérite son attention.</p></article>
+          <article><b>04</b><h3>Scripts & briefs de production</h3><p>Transformer une bonne idée en consigne exploitable : déroulé, scènes, preuves, texte à l’écran, rythme, CTA et intention. Le brief réduit l’écart entre ce qui a été pensé et ce qui sera réellement produit.</p></article>
+          <article><b>05</b><h3>Priorisation des tests</h3><p>Chaque concept doit avoir une raison d’être testé. Les idées sont organisées par hypothèse, motivation ou angle afin de savoir ce que chaque nouvelle créative cherche réellement à valider.</p></article>
         </div>
       </section>
 
@@ -66,12 +66,12 @@ export default function Home() {
           <div className="nc-portfolio-mark" aria-hidden="true"><span>01</span><span>02</span><span>03</span><span>04</span></div>
           <div className="nc-section-intro dark">
             <span>RÉALISATIONS</span>
-            <h2>Des idées construites autour d’un raisonnement, pas d’une liste de hooks.</h2>
+            <h2>Voir l’idée. Comprendre le raisonnement derrière.</h2>
           </div>
           <div className="nc-project-list">
             <a className="nc-project nc-project-featured" href="/projects/horizon-90/creative-strategy">
               <div className="nc-project-visual peach"><div className="paper"><small>01 · CREATIVE STRATEGY</small><h4>Horizon 90</h4><span>3 ANGLES</span></div></div>
-              <div className="nc-project-copy"><small>ADS · ANGLES · SCRIPTS</small><h3>Une même offre, plusieurs raisons d’y croire.</h3><p>Trois concepts publicitaires construits autour de motivations distinctes pour ouvrir plusieurs portes d’entrée vers la même offre.</p><div className="tags"><span>ANGLES</span><span>HOOKS</span><span>SCRIPTS</span></div><strong>Voir l’étude de cas <span>→</span></strong></div>
+              <div className="nc-project-copy"><small>ADS · ANGLES · SCRIPTS</small><h3>Une même offre, plusieurs raisons d’y croire.</h3><p>Le produit reste le même. Ce qui change, c’est la raison pour laquelle on peut avoir envie de l’acheter. Trois concepts ont été construits autour de motivations distinctes pour explorer plusieurs portes d’entrée sans diluer la promesse centrale.</p><div className="tags"><span>ANGLES</span><span>HOOKS</span><span>SCRIPTS</span></div><strong>Voir l’étude de cas <span>→</span></strong></div>
             </a>
 
             <a className="nc-project" href="/projects/aisia/shopify-page">
@@ -93,10 +93,10 @@ export default function Home() {
       </section>
 
       <section className="nc-about nc-wrap" id="about">
-        <div className="nc-about-title"><span>À PROPOS</span><h2>Stratégique dans la recherche.<br/>Concret dans la conception.</h2></div>
+        <div className="nc-about-title"><span>À PROPOS</span><h2>Comprendre ce qui mérite d’être dit.<br/>Puis lui donner une forme.</h2></div>
         <div className="nc-about-copy">
-          <p>NeuroConvert se concentre sur l’amont de la publicité : comprendre le marché, trouver un angle pertinent et donner à l’équipe de production une idée suffisamment claire pour être exécutée et testée.</p>
-          <p>Pas de montage vidéo. Pas de promesse de ROAS. Le travail porte sur ce qui vient avant : les insights, les angles, les concepts et les mots qui donnent une direction à la créative.</p>
+          <p>NeuroConvert travaille en amont de la production publicitaire. Le point de départ n’est pas « quel hook pourrait-on écrire ? », mais « qu’est-ce que le prospect n’a pas encore entendu, compris ou cru ? ».</p>
+          <p>À partir de là, la recherche devient un insight, l’insight devient un angle, l’angle devient un concept, puis le concept devient une direction de production. Pas de montage vidéo. Pas de promesse de ROAS : le travail consiste à rendre les hypothèses créatives plus claires, plus concrètes et plus testables.</p>
           <div className="nc-stats"><div><b>01</b><span>offre centrale</span></div><div><b>FR</b><span>copywriting francophone</span></div><div><b>100%</b><span>à distance</span></div></div>
           <div className="nc-skills"><span>CREATIVE RESEARCH</span><span>ANGLES</span><span>CONCEPTS ADS</span><span>HOOKS</span><span>SCRIPTS</span><span>AD COPY</span></div>
         </div>
@@ -104,8 +104,8 @@ export default function Home() {
 
       <section className="nc-cta" id="contact">
         <span>VOUS AVEZ DÉJÀ DES CRÉATIVES EN CIRCULATION ?</span>
-        <h2>Voyons ce qu’il reste à tester.</h2>
-        <p>Envoyez votre boutique, vos publicités actuelles ou simplement votre offre.</p>
+        <h2>Vous avez probablement déjà une partie de la réponse.</h2>
+        <p>La question est de savoir ce que vos créatives actuelles racontent déjà — et quelles autres histoires votre offre permet encore de raconter.</p>
         <a href="https://wa.me/14389422904" target="_blank" rel="noreferrer">Parler du projet sur WhatsApp ↗</a>
       </section>
 
