@@ -3,27 +3,153 @@ export default function Home() {
     <main className="nc-site">
       <nav className="nc-nav nc-wrap">
         <a className="nc-logo" href="#top">BB.</a>
-        <div className="nc-navlinks"><a href="#offre">Approche</a><a href="#portfolio">Démonstration</a><a href="/ressources">Ressources</a><a href="#about">À propos</a></div>
+        <div className="nc-navlinks">
+          <a href="#offre">Approche</a>
+          <a href="#portfolio">Démonstration</a>
+          <a href="/ressources">Ressources</a>
+          <a href="#about">À propos</a>
+        </div>
         <a className="nc-contact" href="#contact">Parler du projet ↗</a>
       </nav>
+
       <header className="nc-hero nc-wrap" id="top">
         <div className="nc-status">CREATIVE STRATEGY × E-COMMERCE · META + TIKTOK</div>
-        <h1>Le problème n’est pas de créer plus.<span>C’est de trouver quoi dire ensuite.</span></h1>
-        <div className="nc-hero-art" aria-hidden="true"><div className="nc-orbit orbit-a"></div><div className="nc-orbit orbit-b"></div><div className="nc-art-core"><span>ANGLE</span><b>?</b></div><div className="nc-art-note note-a">INSIGHT</div><div className="nc-art-note note-b">CONCEPT</div><div className="nc-art-note note-c">HOOK</div><svg viewBox="0 0 700 360"><path d="M105 250 C210 65 300 300 410 130 S575 100 620 55" fill="none" stroke="currentColor" strokeWidth="2"/><circle cx="105" cy="250" r="5" fill="currentColor"/><circle cx="410" cy="130" r="5" fill="currentColor"/><circle cx="620" cy="55" r="5" fill="currentColor"/></svg></div>
-        <div className="nc-hero-bottom"><p>NeuroConvert aide les marques e-commerce à identifier de nouvelles opportunités créatives et à les transformer en angles, concepts, hooks, scripts et briefs prêts à tester.</p><div className="nc-hero-actions"><a className="nc-primary" href="#offre">Voir comment ça fonctionne <b>↘</b></a><span className="nc-hero-note">RECHERCHE · STRATÉGIE · CRÉATION · PAS DE MONTAGE</span></div></div>
+        <h1>Le problème n’est pas de créer plus.<span>C’est de trouver <em>la prochaine raison</em> d’acheter.</span></h1>
+        <div className="nc-hero-art" aria-hidden="true">
+          <div className="nc-orbit orbit-a" />
+          <div className="nc-orbit orbit-b" />
+          <div className="nc-art-core"><span>ANGLE</span><b>?</b></div>
+          <div className="nc-art-note note-a">INSIGHT</div>
+          <div className="nc-art-note note-b">CONCEPT</div>
+          <div className="nc-art-note note-c">HOOK</div>
+          <svg viewBox="0 0 700 360">
+            <path d="M105 250 C210 65 300 300 410 130 S575 100 620 55" fill="none" stroke="currentColor" strokeWidth="2" />
+            <circle cx="105" cy="250" r="5" fill="currentColor" />
+            <circle cx="410" cy="130" r="5" fill="currentColor" />
+            <circle cx="620" cy="55" r="5" fill="currentColor" />
+          </svg>
+        </div>
+        <div className="nc-hero-bottom">
+          <p>NeuroConvert cherche ce que votre marque n’a pas encore dit à ses acheteurs — et le transforme en angles, concepts, hooks et scripts prêts à tester.</p>
+          <div className="nc-hero-actions">
+            <a className="nc-primary" href="#offre">Voir comment ça fonctionne <b>↘</b></a>
+            <a className="nc-secondary" href="#portfolio">Voir un exemple concret ↘</a>
+            <span className="nc-hero-note">RECHERCHE · STRATÉGIE · CRÉATION · PAS DE MONTAGE</span>
+          </div>
+        </div>
       </header>
+
       <section className="nc-diagnostic">
-        <div className="nc-wrap nc-diagnostic-grid"><div><span className="nc-kicker">AVANT LA CRÉATIVE</span><h2>Vous changez vos créatives. Mais est-ce que vous changez vraiment d’idée ?</h2></div><div className="nc-diagnostic-copy"><p>Une marque peut produire dix nouvelles publicités sans avoir testé dix nouvelles hypothèses.</p><div className="nc-chip-row"><span>HOOK</span><span>CRÉATEUR</span><span>MONTAGE</span><span>FORMAT</span></div><p>La forme change. Mais si la raison d’acheter reste la même, l’idée derrière la créative reste souvent la même.</p><strong>Changer l’exécution n’est pas toujours changer l’idée.</strong></div></div>
-        <div className="nc-wrap nc-question"><span>LE TRAVAIL CRÉATIF COMMENCE PLUS TÔT.</span><b>Avant le hook. Avant le script. Avant la production.</b><em>Qu’est-ce qu’on pourrait encore dire ?</em></div>
+        <div className="nc-wrap nc-diagnostic-grid">
+          <div>
+            <span className="nc-kicker">AVANT LA CRÉATIVE</span>
+            <h2>Vous changez vos créatives. Mais est-ce que vous changez vraiment de raison ?</h2>
+          </div>
+          <div className="nc-diagnostic-copy">
+            <p><strong>Un hook fatigue avant que l’angle ne soit épuisé.</strong> C’est pour ça que changer le montage, le créateur ou le format ne suffit pas toujours : l’audience se lasse du message, pas de l’exécution.</p>
+            <div className="nc-chip-row"><span>HOOK</span><span>CRÉATEUR</span><span>MONTAGE</span><span>FORMAT</span></div>
+            <p>Le travail créatif commence avant le hook. Avant le script. Avant la production.</p>
+            <strong>Changer l’exécution n’est pas toujours changer l’idée.</strong>
+          </div>
+        </div>
+        <div className="nc-wrap nc-question">
+          <span>LE TRAVAIL CRÉATIF COMMENCE PLUS TÔT.</span>
+          <b>Avant le hook. Avant le script. Avant la production.</b>
+          <em>Qu’est-ce que votre marché n’a pas encore suffisamment entendu ?</em>
+        </div>
       </section>
-      <section className="nc-demo" id="portfolio"><div className="nc-wrap"><div className="nc-demo-head"><span className="nc-kicker">UNE OFFRE · PLUSIEURS PORTES D’ENTRÉE</span><h2>Le produit ne change pas. <span>La raison d’acheter peut changer.</span></h2></div><div className="nc-offer-map"><div className="nc-offer-core"><small>OFFRE</small><strong>HORIZON 90</strong></div><div className="nc-branch branch-a"><span>INSIGHT A</span><b>ANGLE A</b><i>CONCEPT A</i><em>HOOK A</em></div><div className="nc-branch branch-b"><span>INSIGHT B</span><b>ANGLE B</b><i>CONCEPT B</i><em>HOOK B</em></div><div className="nc-branch branch-c"><span>INSIGHT C</span><b>ANGLE C</b><i>CONCEPT C</i><em>HOOK C</em></div></div><p className="nc-demo-close">Une offre peut contenir plusieurs histoires. Notre travail consiste à trouver lesquelles méritent d’être testées.</p></div></section>
-      <section className="nc-method" id="offre"><div className="nc-method-inner"><div className="nc-method-kicker">DE L’INSIGHT AU SCRIPT</div><div className="nc-method-title"><h2>Une créative ne commence pas par un hook.</h2><p>Chaque étape répond à une question différente. L’objectif : ne pas demander à l’exécution de résoudre un problème de stratégie.</p></div><div className="nc-method-grid nc-method-v3"><article><small>01 · INSIGHT</small><h3>Ce que le marché révèle.</h3><p>Avis, commentaires, objections, motivations, usages, concurrents et créatives existantes.</p></article><span>→</span><article className="active"><small>02 · ANGLE</small><h3>La nouvelle raison de s’y intéresser.</h3><p>Une autre manière de présenter l’offre à partir de ce que la recherche révèle.</p></article><span>→</span><article><small>03 · CONCEPT</small><h3>Donner une forme à l’idée.</h3><p>La situation, la narration ou le mécanisme créatif qui porte l’angle.</p></article><span>→</span><article><small>04 · HOOK</small><h3>Entrer dans l’idée.</h3><p>La première phrase, image ou information qui ouvre la créative.</p></article><span>→</span><article><small>05 · SCRIPT / BRIEF</small><h3>Rendre l’idée produisible.</h3><p>Ce qu’il faut dire, montrer, prouver et faire comprendre.</p></article></div><div className="nc-method-signature">ON NE COMMENCE PAS PAR ÉCRIRE. <strong>ON COMMENCE PAR COMPRENDRE.</strong></div></div></section>
-      <section className="nc-output nc-wrap"><div className="nc-section-intro"><span className="nc-kicker">CE QUI PASSE EN PRODUCTION</span><h2>Des idées structurées. Pas simplement des idées.</h2></div><div className="nc-output-grid"><article><b>01</b><h3>Recherche créative</h3><p>Ce qui existe déjà sur le marché, chez les concurrents et dans vos propres publicités — et les opportunités encore ouvertes.</p></article><article><b>02</b><h3>Angles & concepts</h3><p>Des hypothèses créatives construites à partir des insights identifiés.</p></article><article><b>03</b><h3>Hooks & copy</h3><p>Les accroches et messages qui donnent une entrée claire à chaque concept.</p></article><article><b>04</b><h3>Scripts & briefs</h3><p>Des directions prêtes à transmettre à vos créateurs, UGC creators ou monteurs.</p></article></div><div className="nc-output-close">Le but n’est pas de remplir un calendrier de contenu. <strong>Le but est de savoir pourquoi chaque nouvelle créative mérite d’exister.</strong></div></section>
-      <section className="nc-platform"><div className="nc-wrap nc-platform-grid"><div><span className="nc-kicker">LÀ OÙ LES CRÉATIVES VIVENT</span><h2>Meta. TikTok. <span>Même question.</span></h2></div><div><p>Les plateformes changent. Les formats changent. Mais une question reste : pourquoi cette personne devrait-elle s’arrêter ici et considérer cette offre ?</p><div className="nc-platform-tags"><span>META ADS</span><span>TIKTOK ADS</span><span>UGC</span><span>SHORT-FORM</span><span>STATIC</span><span>VIDEO</span></div></div></div></section>
-      <section className="nc-about nc-wrap" id="about"><div className="nc-about-title"><span className="nc-kicker">POSTURE</span><h2>Comprendre ce qui mérite d’être dit. Puis lui donner une forme.</h2></div><div className="nc-about-copy"><p>Le point de départ n’est pas : « Quel hook peut-on écrire ? » C’est : <strong>« Qu’est-ce que le prospect n’a pas encore entendu, compris ou cru ? »</strong></p><p>C’est à partir de cette question que NeuroConvert construit ses recherches, ses angles, ses concepts et ses directions créatives.</p><div className="nc-signature">Brice <span>— NeuroConvert</span></div></div></section>
-      <section className="nc-cta" id="contact"><div className="nc-wrap"><span>PRÊT À REGARDER VOS CRÉATIVES AUTREMENT ?</span><h2>Vous savez déjà ce que vos créatives racontent. <strong>Qu’est-ce que votre marque peut encore raconter ?</strong></h2><p>Envoyez-moi vos créatives actuelles. Nous regarderons ce qu’elles racontent déjà — et où pourraient se trouver les prochaines opportunités.</p><a href="https://wa.me/14389422904" target="_blank" rel="noreferrer">Parler de mes prochaines créatives ↗</a></div></section>
-      <footer className="nc-footer"><span>© 2026 Brice Bagoro</span><span>Creative Strategy · Copywriting · E-commerce</span><span>Montréal</span></footer>
-      <a className="nc-whatsapp" href="https://wa.me/14389422904" target="_blank" rel="noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M19.11 17.21c-.23-.12-1.34-.66-1.55-.74-.21-.08-.36-.12-.52.12-.15.23-.59.74-.72.9-.13.15-.27.17-.5.06-.23-.12-.97-.36-1.84-1.14-.68-.61-1.14-1.36-1.28-1.59-.13-.23-.01-.35.1-.47.1-.1.23-.27.35-.41.12-.13.15-.23.23-.39.08-.15.04-.29-.02-.41-.06-.12-.52-1.25-.71-1.71-.19-.45-.38-.39-.52-.4h-.44c-.15 0-.41.06-.62.29-.21.23-.81.79-.81 1.93 0 1.14.83 2.24.95 2.4.12.15 1.63 2.49 3.95 3.49.55.24.98.38 1.32.49.55.18 1.05.15 1.45.09.44-.07 1.34-.55 1.53-1.08.19-.53.19-.98.13-1.08-.06-.1-.21-.15-.44-.27Z"/><path fill="currentColor" d="M16.02 3.2c-7.05 0-12.78 5.73-12.78 12.78 0 2.25.59 4.45 1.7 6.38L3.13 28.8l6.6-1.73a12.72 12.72 0 0 0 6.28 1.6h.01c7.05 0 12.78-5.73 12.78-12.78S23.07 3.2 16.02 3.2Zm0 23.31h-.01a10.57 10.57 0 0 1-5.39-1.48l-.39-.23-3.92 1.03 1.05-3.82-.25-.39a10.55 10.55 0 1 1 8.91 4.89Z"/></svg></a>
+
+      <section className="nc-demo" id="portfolio">
+        <div className="nc-wrap">
+          <div className="nc-demo-head">
+            <span className="nc-kicker">UNE OFFRE · PLUSIEURS PORTES D’ENTRÉE</span>
+            <h2>Le produit ne change pas. <span>La raison d’acheter peut changer.</span></h2>
+          </div>
+          <p className="nc-demo-note">Exemple illustratif — Horizon 90. Le produit reste identique. Ce qui change, c’est la porte d’entrée proposée au prospect.</p>
+          <div className="nc-offer-map">
+            <div className="nc-offer-core"><small>OFFRE</small><strong>HORIZON 90</strong></div>
+            <div className="nc-branch branch-a"><span>INSIGHT A</span><b>ANGLE A</b><i>CONCEPT A</i><em>HOOK A</em></div>
+            <div className="nc-branch branch-b"><span>INSIGHT B</span><b>ANGLE B</b><i>CONCEPT B</i><em>HOOK B</em></div>
+            <div className="nc-branch branch-c"><span>INSIGHT C</span><b>ANGLE C</b><i>CONCEPT C</i><em>HOOK C</em></div>
+          </div>
+          <p className="nc-demo-close"><strong>Une offre peut contenir plusieurs raisons d’acheter.</strong> Notre travail consiste à trouver lesquelles n’ont pas encore été dites — et lesquelles méritent d’être testées.</p>
+        </div>
+      </section>
+
+      <section className="nc-method" id="offre">
+        <div className="nc-method-inner">
+          <div className="nc-method-kicker">DE L’INSIGHT AU SCRIPT</div>
+          <div className="nc-method-title">
+            <h2>Une créative ne commence pas par un hook.</h2>
+            <p>Chaque étape répond à une question différente. L’objectif : ne pas demander à l’exécution de résoudre un problème de stratégie.</p>
+          </div>
+          <div className="nc-method-grid">
+            <article><small>01 · INSIGHT</small><h3>Ce que le marché révèle.</h3><p>Avis, commentaires, objections, motivations, usages, concurrents et créatives existantes.</p></article>
+            <span>→</span>
+            <article className="active"><small>02 · ANGLE</small><h3>La raison qui n’a pas encore été dite.</h3><p>Une autre manière de présenter l’offre à partir de ce que la recherche révèle.</p></article>
+            <span>→</span>
+            <article><small>03 · CONCEPT</small><h3>La scène qui rend cette raison regardable.</h3><p>La situation, la narration ou le mécanisme créatif qui porte l’angle.</p></article>
+            <span>→</span>
+            <article><small>04 · HOOK</small><h3>Entrer dans l’idée.</h3><p>La première phrase, image ou information qui ouvre la créative.</p></article>
+            <span>→</span>
+            <article><small>05 · SCRIPT / BRIEF</small><h3>Rendre l’idée produisible.</h3><p>Ce qu’il faut dire, montrer, prouver et faire comprendre.</p></article>
+          </div>
+          <div className="nc-method-signature">ON NE COMMENCE PAS PAR ÉCRIRE. <strong>ON COMMENCE PAR CHERCHER.</strong></div>
+        </div>
+      </section>
+
+      <section className="nc-output nc-wrap">
+        <div className="nc-section-intro">
+          <span className="nc-kicker">CE QUI PASSE EN PRODUCTION</span>
+          <h2>Des idées structurées. Pas simplement des idées.</h2>
+        </div>
+        <div className="nc-output-grid">
+          <article><b>01</b><h3>Recherche créative</h3><p>Marché, concurrents, avis, publicités déjà en circulation, objections et motivations d’achat.</p></article>
+          <article><b>02</b><h3>Angles &amp; concepts</h3><p>Des hypothèses créatives construites à partir des insights identifiés — pas des variations du même message.</p></article>
+          <article><b>03</b><h3>Hooks &amp; copy</h3><p>Les accroches et messages qui donnent une entrée claire à chaque concept.</p></article>
+          <article><b>04</b><h3>Scripts &amp; briefs</h3><p>Des directions prêtes à transmettre à vos créateurs, UGC creators ou monteurs.</p></article>
+        </div>
+        <div className="nc-output-close">Le but n’est pas de remplir un calendrier de contenu. <strong>Le but est de savoir pourquoi chaque nouvelle créative mérite d’exister.</strong></div>
+      </section>
+
+      <section className="nc-platform">
+        <div className="nc-wrap nc-platform-grid">
+          <div><span className="nc-kicker">LÀ OÙ LES CRÉATIVES VIVENT</span><h2>Meta. TikTok. <span>Même question.</span></h2></div>
+          <div>
+            <p>Les plateformes changent. Les formats changent. Mais une question reste : pourquoi cette personne devrait-elle s’arrêter ici et considérer cette offre ?</p>
+            <div className="nc-platform-tags"><span>META ADS</span><span>TIKTOK ADS</span><span>UGC</span><span>SHORT-FORM</span><span>STATIC</span><span>VIDEO</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section className="nc-about nc-wrap" id="about">
+        <div className="nc-about-title"><span className="nc-kicker">POSTURE</span><h2>Comprendre ce qui mérite d’être dit. Puis lui donner une forme.</h2></div>
+        <div className="nc-about-copy">
+          <p>Le point de départ n’est pas : « Quel hook peut-on écrire ? » C’est : <strong>« Qu’est-ce que le prospect n’a pas encore entendu, compris ou cru ? »</strong></p>
+          <p>C’est à partir de cette question que NeuroConvert construit ses recherches, ses angles, ses concepts et ses directions créatives.</p>
+          <div className="nc-signature">Brice <span>— NeuroConvert</span></div>
+        </div>
+      </section>
+
+      <section className="nc-cta" id="contact">
+        <div className="nc-wrap">
+          <span>PRÊT À REGARDER VOS CRÉATIVES AUTREMENT ?</span>
+          <h2>Vous savez déjà ce que vos créatives racontent. <strong>Qu’est-ce que votre marque peut encore raconter ?</strong></h2>
+          <p>Envoyez-moi vos créatives actuelles. Nous regarderons ce qu’elles racontent déjà — et où pourraient se trouver les prochaines pistes.</p>
+          <a href="https://wa.me/14389422904" target="_blank" rel="noreferrer">Parler de mes prochaines créatives ↗</a>
+        </div>
+      </section>
+
+      <footer className="nc-footer">
+        <span>© 2026 Brice Bagoro</span><span>Creative Strategy · Copywriting · E-commerce</span><span>Montréal</span>
+      </footer>
+
+      <a className="nc-whatsapp" href="https://wa.me/14389422904" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path fill="currentColor" d="M19.11 17.21c-.23-.12-1.34-.66-1.55-.74-.21-.08-.36-.12-.52.12-.15.23-.59.74-.72.9-.13.15-.27.17-.5.06-.23-.12-.97-.36-1.84-1.14-.68-.61-1.14-1.36-1.28-1.59-.13-.23-.01-.35.1-.47.1-.1.23-.27.35-.41.12-.13.15-.23.23-.39.08-.15.04-.29-.02-.41-.06-.12-.52-1.25-.71-1.71-.19-.45-.38-.39-.52-.4h-.44c-.15 0-.41.06-.62.29-.21.23-.81.79-.81 1.93 0 1.14.83 2.24.95 2.4.12.15 1.63 2.49 3.95 3.49.55.24.98.38 1.32.49.55.18 1.05.15 1.45.09.44-.07 1.34-.55 1.53-1.08.19-.53.19-.98.13-1.08-.06-.1-.21-.15-.44-.27Z"/>
+          <path fill="currentColor" d="M16.02 3.2c-7.05 0-12.78 5.73-12.78 12.78 0 2.25.59 4.45 1.7 6.38L3.13 28.8l6.6-1.73a12.72 12.72 0 0 0 6.28 1.6h.01c7.05 0 12.78-5.73 12.78-12.78S23.07 3.2 16.02 3.2Zm0 23.31h-.01a10.57 10.57 0 0 1-5.39-1.48l-.39-.23-3.92 1.03 1.05-3.82-.25-.39a10.55 10.55 0 1 1 8.91 4.89Z"/>
+        </svg>
+      </a>
     </main>
   );
 }
